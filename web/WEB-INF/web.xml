@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+<servlet>
+    <servlet-name>denglu</servlet-name>
+    <servlet-class>service.denglu</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>denglu</servlet-name>
+        <url-pattern>/denglu1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>zhuce</servlet-name>
+        <servlet-class>service.zhuce</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>zhuce</servlet-name>
+        <url-pattern>/zhuce1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>txl</servlet-name>
+        <servlet-class>service.txl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>txl</servlet-name>
+        <url-pattern>/txl1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>service.Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UploadHandleServlet</servlet-name>
+        <servlet-class>service.UploadHandleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadHandleServlet</servlet-name>
+        <url-pattern>/servlet/UploadHandleServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
